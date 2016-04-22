@@ -136,6 +136,7 @@ class AnswersController extends Controller
     public static $serverTag = ['<u>', '</u>'];
     public static $underlineTag = ['<span style="border-bottom:1px solid;">', '</span>'];
 
+
     public static function c2s_convert($s){
         for($i = 0; $i < count(AnswersController::$clientTag); $i++){
             $s = str_replace(AnswersController::$clientTag[$i], AnswersController::$serverTag[$i], $s);

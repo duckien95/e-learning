@@ -206,9 +206,12 @@
 			var maxScore = setOfSpaces.length;
 			for (var i = 0; i < setOfSpaces.length; i++) {
 				var selectObj = $('#select_space_' + setOfSpaces[i]);
+				selectObj.css('width','100px');
 
 				// bootstrap-select will be hided; a button with data-id attribute equals to id of old bootstrap-select will be added and shown.
 				var btn = $('button[data-id="select_space_' + setOfSpaces[i] + '"]');
+				// btn.css('width', '100px');
+				btn.css('font-size','30px');
 				if (selectObj.val() == 1){
 					score++;
 					btn.css('background', "#66ff66");
