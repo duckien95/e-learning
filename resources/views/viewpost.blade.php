@@ -793,7 +793,7 @@
 			margin: 1px;
 			width: auto;
 			display: inline;
-			font-size: 15px;
+			font-size: 12px;
 		}
 	</style>
 	<script>
